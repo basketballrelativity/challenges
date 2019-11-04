@@ -29,6 +29,6 @@ Assuming that the rate of incorrect and challengeable plays is constant througho
 
 ### Challenges by Crew Chief
 
-![](images/ref.csv)
+![](images/ref.png)
 
 With so many officials this early in the season, it's tough to garner many takeaways from the above figure. Michael Smith is tied for the lead in challenges and leads all crew chiefs in successful overturns.
