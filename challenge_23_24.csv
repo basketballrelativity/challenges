@@ -182,7 +182,10 @@ Date,Visiting,Home,Initial Call,Challenging Team,Result,Placeholder,Outcome,Peri
 11/17/23,NYK,WAS,Offensive Foul,WAS,Challenge,,Lost,4,2:19,https://videos.nba.com/nba/official-replay/media/trigger16_nykwas_2_111723_approved_1280x720.mp4
 11/17/23,SAC,SAS,Defensive Foul,SAS,Challenge,,Lost,4,8:23,https://videos.nba.com/nba/official-replay/media/trigger16_sacsas_2_111723_approved_1280x720.mp4
 11/17/23,DEN,NOP,Defensive Foul,DEN,Challenge,,Lost,4,3:39,https://videos.nba.com/nba/official-replay/media/trigger16_dennop_1_111723_approved_1280x720.mp4
+11/17/23,HOU,LAC,Defensive Foul,LAC,Challenge,,Won,4,4:16,https://videos.nba.com/nba/official-replay/media/trigger16_houlac_1_111723_approved_1280x720.mp4
 11/17/23,HOU,LAC,Away Team Possession,LAC,Challenge,,Won,2,9:15,https://videos.nba.com/nba/official-replay/media/trigger17_houlac_2_111723_approved_1280x720.mp4
+11/17/23,LAL,POR,Defensive Foul,LAL,Challenge,,Lost,3,2:43,https://videos.nba.com/nba/official-replay/media/trigger16_lalpor_1_111723_approved_1280x720.mp4
+11/17/23,PHX,UTA,Defensive Foul,UTA,Challenge,,Lost,2,0:00,https://videos.nba.com/nba/official-replay/media/trigger16_phxuta_1_111723_approved_1280x720.mp4
 11/18/23,NYK,CHA,Offensive Foul,CHA,Challenge,,Lost,4,3:43,https://videos.nba.com/nba/official-replay/media/trigger16_nykcha_1_111823_approved_1280x720.mp4
 11/18/23,MIA,CHI,Offensive Foul,CHI,Challenge,,Lost,1,5:48,https://videos.nba.com/nba/official-replay/media/trigger16_miachi_1_111823_approved_1280x720.mp4
 11/18/23,OKC,GSW,Defensive Foul,GSW,Challenge,,Lost,4,1:26,https://videos.nba.com/nba/official-replay/media/trigger16_okcgsw_2_111823_approved_1280x720.mp4
@@ -210,3 +213,109 @@ Date,Visiting,Home,Initial Call,Challenging Team,Result,Placeholder,Outcome,Peri
 11/22/23,MIA,CLE,Defensive Foul,MIA,Challenge,,Won,3,3:23,https://videos.nba.com/nba/official-replay/media/trigger16_miacle_1_112223_approved_1280x720.mp4
 11/22/23,MIA,CLE,Defensive Foul,CLE,Challenge,,Won,3,00:00.2,https://videos.nba.com/nba/official-replay/media/trigger16_miacle_2_112223_approved_1280x720.mp4
 11/22/23,SAC,NOP,Defensive Foul,NOP,Challenge,,Lost,3,5:27,https://videos.nba.com/nba/official-replay/media/trigger16_sacnop_2_112223_approved_1280x720.mp4
+11/22/23,LAC,SAS,Away Team Possession,SAS,Challenge,,Lost,2,3:07,https://videos.nba.com/nba/official-replay/media/trigger17_lacsas_1_112223_approved_1280x720.mp4
+11/22/23,MIL,BOS,Defensive Foul,MIL,Challenge,,Won,3,4:54,https://videos.nba.com/nba/official-replay/media/trigger16_milbos_1_112223_approved_1280x720.mp4
+11/22/23,TOR,IND,Defensive Foul,TOR,Challenge,,Lost,4,00:12.4,https://videos.nba.com/nba/official-replay/media/trigger16_torind_1_112223_approved_1280x720.mp4
+11/22/23,CHI,OKC,Defensive Foul,OKC,Challenge,,Won,4,5:14,https://videos.nba.com/nba/official-replay/media/trigger16_chiokc_1_112223_approved_1280x720.mp4
+11/22/23,MEM,HOU,Defensive Foul,HOU,Challenge,,Lost,4,8:49,https://videos.nba.com/nba/official-replay/media/trigger16_memhou_1_112223_approved_1280x720.mp4
+11/22/23,GSW,PHX,Offensive Foul,GSW,Challenge,,Lost,2,3:11,https://videos.nba.com/nba/official-replay/media/trigger16_gswphx_1_112223_approved_1280x720.mp4
+11/22/23,UTA,POR,Defensive Foul,POR,Challenge,,Won,3,00:52.0,https://videos.nba.com/nba/official-replay/media/trigger16_utapor_1_112223_approved_1280x720.mp4
+11/22/23,DAL,LAL,Defensive Foul,LAL,Challenge,,Won,4,2:04,https://videos.nba.com/nba/official-replay/media/trigger16_dallal_1_112223_approved_1280x720.mp4
+11/22/23,GSW,PHX,Defensive Foul,PHX,Challenge,,Lost,4,00:41.7,https://videos.nba.com/nba/official-replay/media/trigger16_gswphx_2_112223_approved_1280x720.mp4
+11/24/23,CHI,TOR,Defensive Foul,TOR,Challenge,,Lost,2,00:01.4,https://videos.nba.com/nba/official-replay/media/trigger16_chitor_1_112423_approved_1280x720.mp4
+11/24/23,SAC,MIN,Away Team Possession,MIN,Challenge,,Lost,2,6:02,https://videos.nba.com/nba/official-replay/media/trigger17_sacmin_1_112423_approved_1280x720.mp4
+11/24/23,MIA,NYK,Defensive Foul,NYK,Challenge,,Lost,3,3:40,https://videos.nba.com/nba/official-replay/media/trigger16_mianyk_1_112423_approved_1280x720.mp4
+11/24/23,SAC,MIN,Defensive Foul,SAC,Challenge,,Won,3,6:20,https://videos.nba.com/nba/official-replay/media/trigger16_sacmin_1_112423_approved_1280x720.mp4
+11/24/23,DEN,HOU,Defensive Foul,HOU,Challenge,,Won,4,6:43,https://videos.nba.com/nba/official-replay/media/trigger16_denhou_1_112423_approved_1280x720.mp4
+11/24/23,WAS,MIL,Offensive Foul,WAS,Challenge,,Lost,4,4:16,https://videos.nba.com/nba/official-replay/media/trigger16_wasmil_1_112423_approved_1280x720.mp4
+11/24/23,NOP,LAC,Defensive Foul,LAC,Challenge,,Won,2,00:37.6,https://videos.nba.com/nba/official-replay/media/trigger16_noplac_1_112423_approved_1280x720.mp4
+11/24/23,SAS,GSW,Defensive Foul,GSW,Challenge,,Won,3,3:22,https://videos.nba.com/nba/official-replay/media/trigger16_sasgsw_1_112423_approved_1280x720.mp4
+11/24/23,NOP,LAC,Defensive Foul,LAC,Challenge,,Lost,3,1:16,https://videos.nba.com/nba/official-replay/media/trigger16_noplac_2_112423_approved_1280x720.mp4
+11/24/23,SAS,GSW,Offensive Foul,SAS,Challenge,,Won,4,4:30,https://videos.nba.com/nba/official-replay/media/trigger16_sasgsw_2_112423_approved_1280x720.mp4
+11/25/23,PHI,OKC,Defensive Foul,OKC,Challenge,,Lost,2,10:03,https://videos.nba.com/nba/official-replay/media/trigger16_phiokc_1_112523_approved_1280x720.mp4
+11/25/23,PHI,OKC,Offensive Foul,PHI,Challenge,,Won,2,00:07.3,https://videos.nba.com/nba/official-replay/media/trigger16_phiokc_2_112523_approved_1280x720.mp4
+11/25/23,MIA,BKN,Offensive Foul,BKN,Challenge,,Won,2,9:06,https://videos.nba.com/nba/official-replay/media/trigger16_miabkn_1_112523_approved_1280x720.mp4
+11/25/23,PHI,OKC,Defensive Foul,PHI,Challenge,,Won,4,1:12,https://videos.nba.com/nba/official-replay/media/trigger16_phiokc_3_112523_approved_1280x720.mp4
+11/25/23,MIA,BKN,Defensive Foul,MIA,Challenge,,Lost,3,1:05,https://videos.nba.com/nba/official-replay/media/trigger16_miabkn_2_112523_approved_1280x720.mp4
+11/25/23,ATL,WAS,Offensive Foul,ATL,Challenge,,Lost,4,10:50,https://videos.nba.com/nba/official-replay/media/trigger16_atlwas_1_112523_approved_1280x720.mp4
+11/25/23,LAL,CLE,Defensive Foul,CLE,Challenge,,Won,4,2:37,https://videos.nba.com/nba/official-replay/media/trigger16_lalcle_1_112523_approved_1280x720.mp4
+11/25/23,NOP,UTA,Offensive Foul,UTA,Challenge,,Lost,4,7:12,https://videos.nba.com/nba/official-replay/media/trigger16_noputa_1_112523_approved_1280x720.mp4
+11/25/23,NOP,UTA,Home Team Possession,NOP,Challenge,,Won,4,3:34,https://videos.nba.com/nba/official-replay/media/trigger17_noputa_1_112523_approved_1280x720.mp4
+11/26/23,POR,MIL,Away Team Possession,MIL,Challenge,,Won,3,5:16,https://videos.nba.com/nba/official-replay/media/trigger17_pormil_1_112623_approved_1280x720.mp4
+11/26/23,POR,MIL,Defensive Foul,MIL,Challenge,,Won,4,00:14.6,https://videos.nba.com/nba/official-replay/media/trigger16_pormil_1_112623_approved_1280x720.mp4
+11/26/23,PHX,NYK,Defensive Foul,PHX,Challenge,,Won,3,11:04,https://videos.nba.com/nba/official-replay/media/trigger16_phxnyk_1_112623_approved_1280x720.mp4
+11/26/23,MIN,MEM,Offensive Foul,MEM,Challenge,,Lost,3,6:41,https://videos.nba.com/nba/official-replay/media/trigger16_minmem_1_112623_approved_1280x720.mp4
+11/26/23,ATL,BOS,Home Team Possession,ATL,Challenge,,Won,4,3:35,https://videos.nba.com/nba/official-replay/media/trigger17_atlbos_1_112623_approved_1280x720.mp4
+11/26/23,ATL,BOS,Away Team Possession,BOS,Challenge,,Won,4,00:47.4,https://videos.nba.com/nba/official-replay/media/trigger17_atlbos_2_112623_approved_1280x720.mp4
+11/26/23,SAS,DEN,Defensive Foul,SAS,Challenge,,Won,2,10:42,https://videos.nba.com/nba/official-replay/media/trigger16_sasden_1_112623_approved_1280x720.mp4
+11/26/23,CHI,BKN,Offensive Foul,BKN,Challenge,,Lost,3,8:59,https://videos.nba.com/nba/official-replay/media/trigger16_chibkn_1_112623_approved_1280x720.mp4
+11/27/23,WAS,DET,Defensive Foul,WAS,Challenge,,Won,4,3:01,https://videos.nba.com/nba/official-replay/media/trigger16_wasdet_1_112723_approved_1280x720.mp4
+11/27/23,POR,IND,Defensive Foul,IND,Challenge,,Won,4,2:09,https://videos.nba.com/nba/official-replay/media/trigger16_porind_1_112723_approved_1280x720.mp4
+11/27/23,DEN,LAC,Offensive Foul,DEN,Challenge,,Lost,1,5:20,https://videos.nba.com/nba/official-replay/media/trigger16_denlac_1_112723_approved_1280x720.mp4
+11/28/23,CHI,BOS,Defensive Foul,BOS,Challenge,,Won,2,5:33,https://videos.nba.com/nba/official-replay/media/trigger16_chibos_1_112823_approved_1280x720.mp4
+11/28/23,TOR,BKN,Goaltending,BKN,Challenge,,Won,2,1:49,https://videos.nba.com/nba/official-replay/media/trigger18_torbkn_1_112823_approved_1280x720.mp4
+11/28/23,MIL,MIA,Offensive Foul,MIL,Challenge,,Lost,2,1:53,https://videos.nba.com/nba/official-replay/media/trigger16_milmia_1_112823_approved_1280x720.mp4
+11/28/23,OKC,MIN,Offensive Foul,MIN,Challenge,,Won,2,7:23,https://videos.nba.com/nba/official-replay/media/trigger16_okcmin_1_112823_approved_1280x720.mp4
+11/28/23,CHI,BOS,Defensive Foul,CHI,Challenge,,Won,3,10:39,https://videos.nba.com/nba/official-replay/media/trigger16_chibos_2_112823_approved_1280x720.mp4
+11/28/23,CHA,NYK,Goaltending,CHA,Challenge,,Won,3,5:46,https://videos.nba.com/nba/official-replay/media/trigger18_chanyk_1_112823_approved_1280x720.mp4
+11/28/23,HOU,DAL,Defensive Foul,DAL,Challenge,,Won,2,10:40,https://videos.nba.com/nba/official-replay/media/trigger16_houdal_1_112823_approved_1280x720.mp4
+11/28/23,MIL,MIA,Defensive Foul,MIA,Challenge,,Won,3,5:47,https://videos.nba.com/nba/official-replay/media/trigger16_milmia_2_112823_approved_1280x720.mp4
+11/28/23,GSW,SAC,Defensive Foul,SAC,Challenge,,Lost,1,5:48,https://videos.nba.com/nba/official-replay/media/trigger16_gswsac_1_112823_approved_1280x720.mp4
+11/28/23,HOU,DAL,Away Team Possession,DAL,Challenge,,Won,4,3:38,https://videos.nba.com/nba/official-replay/media/trigger17_houdal_1_112823_approved_1280x720.mp4
+11/28/23,HOU,DAL,Defensive Foul,HOU,Challenge,,Lost,4,2:28,https://videos.nba.com/nba/official-replay/media/trigger16_houdal_2_112823_approved_1280x720.mp4
+11/28/23,GSW,SAC,Offensive Foul,GSW,Challenge,,Lost,4,2:50,https://videos.nba.com/nba/official-replay/media/trigger16_gswsac_2_112823_approved_1280x720.mp4
+11/29/23,PHX,TOR,Defensive Foul,TOR,Challenge,,Lost,2,00:02.4,https://videos.nba.com/nba/official-replay/media/trigger16_phxtor_1_112923_approved_1280x720.mp4
+11/29/23,PHI,NOP,Defensive Foul,PHI,Challenge,,Won,2,5:19,https://videos.nba.com/nba/official-replay/media/trigger16_phinop_1_112923_approved_1280x720.mp4
+11/29/23,UTA,MEM,Defensive Foul,MEM,Challenge,,Won,3,10:36,https://videos.nba.com/nba/official-replay/media/trigger16_utamem_1_112923_approved_1280x720.mp4
+11/29/23,HOU,DEN,Defensive Foul,HOU,Challenge,,Lost,2,00:49.9,https://videos.nba.com/nba/official-replay/media/trigger16_houden_1_112923_approved_1280x720.mp4
+11/29/23,PHI,NOP,Home Team Possession,PHI,Challenge,,Lost,4,11:40,https://videos.nba.com/nba/official-replay/media/trigger17_phinop_1_112923_approved_1280x720.mp4
+11/29/23,UTA,MEM,Defensive Foul,UTA,Challenge,,Won,4,1:41,https://videos.nba.com/nba/official-replay/media/trigger16_utamem_2_112923_approved_1280x720.mp4
+11/30/23,DET,NYK,Offensive Foul,DET,Challenge,,Lost,2,8:54,https://videos.nba.com/nba/official-replay/media/trigger16_detnyk_1_113023_approved_1280x720.mp4
+11/30/23,LAL,OKC,Defensive Foul,OKC,Challenge,,Lost,1,4:46,https://videos.nba.com/nba/official-replay/media/trigger16_lalokc_1_113023_approved_1280x720.mp4
+11/30/23,ATL,SAS,Offensive Foul,ATL,Challenge,,Lost,2,8:45,https://videos.nba.com/nba/official-replay/media/trigger16_atlsas_1_113023_approved_1280x720.mp4
+11/30/23,UTA,MIN,Defensive Foul,MIN,Challenge,,Won,2,7:30,https://videos.nba.com/nba/official-replay/media/trigger16_utamin_1_113023_approved_1280x720.mp4
+11/30/23,POR,CLE,Defensive Foul,CLE,Challenge,,Lost,4,1:04,https://videos.nba.com/nba/official-replay/media/trigger16_porcle_1_113023_approved_1280x720.mp4
+11/30/23,MIL,CHI,Away Team Possession,CHI,Challenge,,Lost,3,7:38,https://videos.nba.com/nba/official-replay/media/trigger17_milchi_1_113023_approved_1280x720.mp4
+11/30/23,CHA,BKN,Defensive Foul,CHA,Challenge,,Won,4,5:44,https://videos.nba.com/nba/official-replay/media/trigger16_chabkn_1_113023_approved_1280x720.mp4
+11/30/23,IND,MIA,Defensive Foul,IND,Challenge,,Lost,4,7:52,https://videos.nba.com/nba/official-replay/media/trigger16_indmia_1_113023_approved_1280x720.mp4
+11/30/23,DET,NYK,Defensive Foul,NYK,Challenge,,Lost,4,2:39,https://videos.nba.com/nba/official-replay/media/trigger16_detnyk_2_113023_approved_1280x720.mp4
+11/30/23,LAC,GSW,Defensive Foul,GSW,Challenge,,Won,1,1:20,https://videos.nba.com/nba/official-replay/media/trigger16_lacgsw_1_113023_approved_1280x720.mp4
+11/30/23,LAC,GSW,Defensive Foul,LAC,Challenge,,Lost,4,2:44,https://videos.nba.com/nba/official-replay/media/trigger16_lacgsw_2_113023_approved_1280x720.mp4
+12/1/23,WAS,ORL,Away Team Possession,ORL,Challenge,,Won,1,1:32,https://videos.nba.com/nba/official-replay/media/trigger17_wasorl_1_120123_approved_1280x720.mp4
+12/1/23,SAS,NOP,Home Team Possession,SAS,Challenge,,Won,1,2:24,https://videos.nba.com/nba/official-replay/media/trigger17_sasnop_1_120123_approved_1280x720.mp4
+12/1/23,MEM,DAL,Defensive Foul,MEM,Challenge,,Won,3,3:39,https://videos.nba.com/nba/official-replay/media/trigger16_memdal_1_120123_approved_1280x720.mp4
+12/1/23,PHI,BOS,Defensive Foul,PHI,Challenge,,Lost,3,5:03,https://videos.nba.com/nba/official-replay/media/trigger16_phibos_1_120123_approved_1280x720.mp4
+12/1/23,SAS,NOP,Away Team Possession,NOP,Challenge,,Lost,4,2:48,https://videos.nba.com/nba/official-replay/media/trigger17_sasnop_2_120123_approved_1280x720.mp4
+12/1/23,DEN,PHX,Away Team Possession,PHX,Challenge,,Won,4,4:04,https://videos.nba.com/nba/official-replay/media/trigger17_denphx_1_120123_approved_1280x720.mp4
+12/2/23,GSW,LAC,Home Team Possession,GSW,Challenge,,Won,4,1:42,https://videos.nba.com/nba/official-replay/media/trigger17_gswlac_1_120223_approved_1280x720.mp4
+12/2/23,MIN,CHA,Defensive Foul,MIN,Challenge,,Lost,4,1:40,https://videos.nba.com/nba/official-replay/media/trigger16_mincha_1_120223_approved_1280x720.mp4
+12/2/23,CLE,DET,Defensive Foul,CLE,Challenge,,Lost,4,2:14,https://videos.nba.com/nba/official-replay/media/trigger16_cledet_1_120223_approved_1280x720.mp4
+12/2/23,IND,MIA,Offensive Foul,IND,Challenge,,Won,3,3:55,https://videos.nba.com/nba/official-replay/media/trigger16_indmia_1_120223_approved_1280x720.mp4
+12/2/23,POR,UTA,Offensive Foul,UTA,Challenge,,Won,1,5:52,https://videos.nba.com/nba/official-replay/media/trigger16_poruta_1_120223_approved_1280x720.mp4
+12/2/23,DEN,SAC,Defensive Foul,DEN,Challenge,,Won,1,00:36.2,https://videos.nba.com/nba/official-replay/media/trigger16_densac_1_120223_approved_1280x720.mp4
+12/2/23,HOU,LAL,Defensive Foul,LAL,Challenge,,Lost,3,4:59,https://videos.nba.com/nba/official-replay/media/trigger16_houlal_1_120223_approved_1280x720.mp4
+12/2/23,HOU,LAL,Defensive Foul,HOU,Challenge,,Won,4,3:05,https://videos.nba.com/nba/official-replay/media/trigger16_houlal_2_120223_approved_1280x720.mp4
+12/4/23,NOP,SAC,Offensive Foul,SAC,Challenge,,Lost,2,10:10,https://videos.nba.com/nba/official-replay/media/trigger16_nopsac_1_120423_approved_1280x720.mp4
+12/6/23,ORL,CLE,Goaltending,CLE,Challenge,,Won,2,3:40,https://videos.nba.com/nba/official-replay/media/trigger18_orlcle_1_120623_approved_1280x720.mp4
+12/6/23,MEM,DET,Away Team Possession,DET,Challenge,,Won,3,00:53.7,https://videos.nba.com/nba/official-replay/media/trigger17_memdet_1_120623_approved_1280x720.mp4
+12/6/23,CHA,CHI,Defensive Foul,CHA,Challenge,,Won,2,10:38,https://videos.nba.com/nba/official-replay/media/trigger16_chachi_1_120623_approved_1280x720.mp4
+12/6/23,BKN,ATL,Home Team Possession,BKN,Challenge,,Won,3,3:27,https://videos.nba.com/nba/official-replay/media/trigger17_bknatl_1_120623_approved_1280x720.mp4
+12/6/23,ORL,CLE,Defensive Foul,CLE,Challenge,,Won,4,2:32,https://videos.nba.com/nba/official-replay/media/trigger16_orlcle_1_120623_approved_1280x720.mp4
+12/6/23,MIA,TOR,Defensive Foul,TOR,Challenge,,Won,4,00:37.0,https://videos.nba.com/nba/official-replay/media/trigger16_miator_1_120623_approved_1280x720.mp4
+12/6/23,CHA,CHI,Defensive Foul,CHI,Challenge,,Won,4,3:25,https://videos.nba.com/nba/official-replay/media/trigger16_chachi_2_120623_approved_1280x720.mp4
+12/8/23,WAS,BKN,Defensive Foul,WAS,Challenge,,Won,2,6:29,https://videos.nba.com/nba/official-replay/media/trigger16_wasbkn_1_120823_approved_1280x720.mp4
+12/8/23,CLE,MIA,Offensive Foul,MIA,Challenge,,Lost,1,1:28,https://videos.nba.com/nba/official-replay/media/trigger16_clemia_1_120823_approved_1280x720.mp4
+12/8/23,GSW,OKC,Loose Ball Foul,OKC,Challenge,,Lost,2,11:35,https://videos.nba.com/nba/official-replay/media/trigger16_gswokc_1_120823_approved_1280x720.mp4
+12/8/23,MIN,MEM,Defensive Foul,MEM,Challenge,,Won,2,8:55,https://videos.nba.com/nba/official-replay/media/trigger16_minmem_1_120823_approved_1280x720.mp4
+12/8/23,ATL,PHI,Offensive Foul,PHI,Challenge,,Won,4,11:48,https://videos.nba.com/nba/official-replay/media/trigger16_atlphi_1_120823_approved_1280x720.mp4
+12/8/23,TOR,CHA,Home Team Possession,TOR,Challenge,,Won,4,7:58,https://videos.nba.com/nba/official-replay/media/trigger17_torcha_1_120823_approved_1280x720.mp4
+12/8/23,NYK,BOS,Home Team Possession,NYK,Challenge,,Won,3,4:54,https://videos.nba.com/nba/official-replay/media/trigger17_nykbos_1_120823_approved_1280x720.mp4
+12/8/23,TOR,CHA,Offensive Foul,CHA,Challenge,,Won,4,1:21,https://videos.nba.com/nba/official-replay/media/trigger16_torcha_1_120823_approved_1280x720.mp4
+12/8/23,TOR,CHA,Defensive Foul,CHA,Challenge,,Lost,4,00:08.0,https://videos.nba.com/nba/official-replay/media/trigger16_torcha_2_120823_approved_1280x720.mp4
+12/8/23,MIN,MEM,Defensive Foul,MIN,Challenge,,Lost,4,10:59,https://videos.nba.com/nba/official-replay/media/trigger16_minmem_2_120823_approved_1280x720.mp4
+12/8/23,HOU,DEN,Home Team Possession,HOU,Challenge,,Won,2,1:37,https://videos.nba.com/nba/official-replay/media/trigger17_houden_1_120823_approved_1280x720.mp4
+12/8/23,CLE,MIA,Offensive Foul,CLE,Challenge,,Lost,4,6:08,https://videos.nba.com/nba/official-replay/media/trigger16_clemia_2_120823_approved_1280x720.mp4
+12/8/23,GSW,OKC,Defensive Foul,GSW,Challenge,,Lost,4,00:07.7,https://videos.nba.com/nba/official-replay/media/trigger16_gswokc_2_120823_approved_1280x720.mp4
+12/8/23,CHI,SAS,Defensive Foul,SAS,Challenge,,Won,4,6:14,https://videos.nba.com/nba/official-replay/media/trigger16_chisas_1_120823_approved_1280x720.mp4
+12/8/23,LAC,UTA,Defensive Foul,UTA,Challenge,,Won,1,2:52,https://videos.nba.com/nba/official-replay/media/trigger16_lacuta_1_120823_approved_1280x720.mp4
+12/9/23,IND,LAL,Offensive Foul,LAL,Challenge,,Lost,2,3:19,https://videos.nba.com/nba/official-replay/media/trigger16_indlal_1_120923_approved_1280x720.mp4
