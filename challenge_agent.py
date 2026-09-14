@@ -69,11 +69,8 @@ class TeamEnum(str, Enum):
 
 
 class CallEnum(str, Enum):
-    loose_ball_foul = "Loose Ball Foul"
-    away_team_possession = "Away Team Possession"
-    home_team_possession = "Home Team Possession"
-    defensive_foul = "Defensive Foul"
-    offensive_foul = "Offensive Foul"
+    foul = "Foul"
+    possession = "Possession"
     goaltending = "Goaltending"
 
 
@@ -235,6 +232,7 @@ Important:
 - Convert team names to their three-letter NBA codes.
 - Convert the game date to MM/DD/YYYY.
 - Convert the time to MM:SS.T format (T is tenths of a second remaining)
+-- You'll see this in the website page text at the beginning of the text describing the play
 - Convert the period to an integer:
     1 = first quarter
     2 = second quarter
@@ -243,9 +241,12 @@ Important:
     5 = OT1
     6 = OT2
     etc.
+-- You'll see this right after the game time above and before the type of challenge described
+- Convert the challenge type into one of the available fields (Foul, Possession, or Goaltending)
+-- Goaltending is also referred to as basket interference
 - Convert challenge results into:
-    Won = the challenge successfully changed the ruling
-    Lost = the original ruling was upheld
+    Won = the challenge successfully changed the ruling (you'll likely see "overturned" in the text description)
+    Lost = the original ruling was upheld (you'll see references to the call standing or being confirmed)
 - The link must be the supplied NBA URL.
 """
 
@@ -268,14 +269,15 @@ def extract_challenge(
     challenge
 ) -> Optional[Challenge]:
 
+    text = page_to_text(challenge["permalink"])
     prompt = f"""
 Extract the Coach's Challenge information at this URL
 
 URL:
 {challenge["permalink"]}
 
-Challenge info:
-{challenge}
+Link text:
+{text}
 """
 
     try:
