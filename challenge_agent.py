@@ -12,16 +12,18 @@ Architecture:
 from __future__ import annotations
 
 import re
-from datetime import datetime
+from datetime import datetime, time
 from enum import Enum
 from typing import Optional
+
+import pandas as pd
 
 import requests
 from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field
 from langchain.agents import create_agent
 
-SEASON = "2025-26"
+SEASON = "2023-24"
 NBA_ARCHIVE = "https://official.nba.com/wp-json/api/v1/query_replay_feed"
 
 HEADERS = {
@@ -330,11 +332,88 @@ def extract_challenges(
     return confirmed_challenges
 
 
+def challenge_agent_eval():
+    """ This function runs evaluation on a subset
+    of known challenge data to test the performance
+    of the agent
+    """
+    # Eval dates
+    start_date = "10/24/2023"
+    end_date = "10/28/2023"
+
+    # Filter known data
+    challenge_df = pd.read_csv("challenge_23_24.csv")
+    challenge_df = challenge_df[
+        (challenge_df["Date"]>=start_date.replace("202", "2")) &
+        (challenge_df["Date"]<=end_date.replace("202", "2"))
+    ]
+
+    # Agent
+    challenges = extract_challenges(
+        start_date,
+        end_date
+    )
+    agent_df = pd.DataFrame([vars(x) for x in challenges])
+    # Process classes
+    for col in ["visiting", "home", "initial_call", "challenging_team", "outcome"]:
+        agent_df[col] = [x.value for x in agent_df[col]]
+
+    # Rename agent_df columns
+    rename_dict = {
+        "date": "Date",
+        "visiting": "Visiting",
+        "home": "Home",
+        "challenging_team": "Challenging Team",
+        "period": "Period",
+        "time": "Time"
+    }
+    agent_df = agent_df.rename(columns=rename_dict)
+    agent_df["Date"] = [x.replace("202", "2") for x in agent_df["Date"]]
+
+    # Process time
+    challenge_df["processed_time"] = [
+        time(
+            hour=0,
+            minute=int(x.split(":")[0]),
+            second=int(float(x.split(":")[-1])),
+        ) for x in challenge_df["Time"]
+    ]
+    agent_df["processed_time"] = [
+        time(
+            hour=0,
+            minute=int(x.split(":")[0]),
+            second=int(float(x.split(":")[-1])),
+        ) for x in agent_df["Time"]
+    ]
+    # Process calls
+    agent_df["processed_calls"] = [
+        "Foul" if "Foul" in x else
+        "Possession" if "Possession" in x else
+        "Goaltending" for x in agent_df["initial_call"]
+    ]
+
+    comb_df = challenge_df.merge(
+        agent_df,
+        on=["Date", "Visiting", "Home", "Challenging Team",
+        "Period", "processed_time"
+        ],
+        how="left"
+    )
+
+    # Time to evaluate!
+    matches = len(comb_df[pd.notnull(comb_df["processed_call"])])
+    possible_matches = len(challenge_df)
+
+    print(f"Matches: {matches}/{possible_matches}")
+
+
+
+
 if __name__ == "__main__":
 
     challenges = extract_challenges(
-        "06/13/2026",
-        "06/13/2026",
+        "10/24/2023",
+        "10/24/2023",
     )
 
     for challenge in challenges:
