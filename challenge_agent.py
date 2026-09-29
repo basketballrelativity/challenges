@@ -23,7 +23,7 @@ from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field
 from langchain.agents import create_agent
 
-SEASON = "2023-24"
+SEASON = "2024-25"
 NBA_ARCHIVE = "https://official.nba.com/wp-json/api/v1/query_replay_feed"
 
 HEADERS = {
@@ -250,8 +250,9 @@ Important:
     Won = the challenge successfully changed the ruling (you'll likely see "overturned" in the text description)
     Lost = the original ruling was upheld (you'll see references to the call standing or being confirmed)
 - The link must be the supplied NBA URL.
-- You'll also be provided a JPG image of the start of the video that you can use to help determine the challenging team.
-Try not to rely on this unless the challenging team isn't indicated in the website text
+- If available, you'll also be provided a JPG image of the start of the video that you can use to help determine the challenging team.
+Try not to rely on this unless the challenging team isn't indicated in the website text. If this image isn't available, it won't be passed
+along to you
 """
 
 
@@ -303,8 +304,26 @@ Link text:
         return result["structured_response"]
 
     except Exception as exc:
-        print(f"Could not extract {challenge["permalink"]}: {exc}")
-        return None
+        try:
+            print(f"Could not extract {challenge["permalink"]}: {exc}")
+            print("Trying without thumbnail image")
+            result = extractor.invoke(
+                {
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": [
+                                {"type": "text", "text": prompt}
+                            ],
+                        }
+                    ]
+                }
+            )
+
+            return result["structured_response"]
+        except Exception as exc:
+            print(f"Failed again for {challenge["permalink"]}: {exc}")
+            return None
 
 
 # ---------------------------------------------------------------------------
@@ -344,8 +363,8 @@ def challenge_agent_eval():
     of the agent
     """
     # Eval dates
-    start_date = "10/24/2023"
-    end_date = "10/28/2023"
+    start_date = "10/25/2023"
+    end_date = "10/27/2023"
 
     # Filter known data
     challenge_df = pd.read_csv("challenge_23_24.csv")
@@ -398,8 +417,8 @@ def challenge_agent_eval():
         "Goaltending" for x in challenge_df["Initial Call"]
     ]
 
-    comb_df = challenge_df.merge(
-        agent_df,
+    comb_df = agent_df.merge(
+        challenge_df,
         on=["Date", "Visiting", "Home", "Challenging Team",
         "Period", "processed_time"
         ],
@@ -421,9 +440,28 @@ def challenge_agent_eval():
 if __name__ == "__main__":
 
     challenges = extract_challenges(
-        "10/27/2023",
-        "10/27/2023",
+        "01/01/2025",
+        "01/31/2025",
     )
 
-    for challenge in challenges:
-        print(challenge.model_dump_json(indent=2))
+    agent_df = pd.DataFrame([vars(x) for x in challenges])
+    # Process classes
+    for col in ["visiting", "home", "initial_call", "challenging_team", "outcome"]:
+        agent_df[col] = [x.value for x in agent_df[col]]
+
+    rename_dict = {
+        "date": "Date",
+        "visiting": "Visiting",
+        "home": "Home",
+        "challenging_team": "Challenging Team",
+        "period": "Period",
+        "time": "Time",
+        "initial_call": "Initial Call",
+        "link": "Link",
+        "outcome": "Outcome"
+    }
+
+    agent_df = agent_df.rename(columns=rename_dict)
+    agent_df["Date"] = [x.replace("202", "2") for x in agent_df["Date"]]
+
+    agent_df.to_csv(f"challenges/months/challenge_january_{SEASON}.csv", index=False)
