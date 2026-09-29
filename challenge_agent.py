@@ -250,6 +250,8 @@ Important:
     Won = the challenge successfully changed the ruling (you'll likely see "overturned" in the text description)
     Lost = the original ruling was upheld (you'll see references to the call standing or being confirmed)
 - The link must be the supplied NBA URL.
+- You'll also be provided a JPG image of the start of the video that you can use to help determine the challenging team.
+Try not to rely on this unless the challenging team isn't indicated in the website text
 """
 
 
@@ -288,7 +290,11 @@ Link text:
                 "messages": [
                     {
                         "role": "user",
-                        "content": prompt,
+                        "content": [
+                            {"type": "text", "text": prompt},
+                            {"type": "image_url",
+                             "image_url": {"url": challenge["thumbnail_url"]}}
+                        ],
                     }
                 ]
             }
@@ -386,10 +392,10 @@ def challenge_agent_eval():
         ) for x in agent_df["Time"]
     ]
     # Process calls
-    agent_df["processed_calls"] = [
+    challenge_df["processed_calls"] = [
         "Foul" if "Foul" in x else
         "Possession" if "Possession" in x else
-        "Goaltending" for x in agent_df["initial_call"]
+        "Goaltending" for x in challenge_df["Initial Call"]
     ]
 
     comb_df = challenge_df.merge(
@@ -401,19 +407,22 @@ def challenge_agent_eval():
     )
 
     # Time to evaluate!
-    matches = len(comb_df[pd.notnull(comb_df["processed_call"])])
+    matches = len(comb_df[pd.notnull(comb_df["processed_calls"])])
     possible_matches = len(challenge_df)
 
+    # Number of matches and correct call type
     print(f"Matches: {matches}/{possible_matches}")
+    correct_calls = sum(comb_df["processed_calls"] == comb_df["initial_call"])
+    print(f"Correct Call Type: {correct_calls}/{possible_matches}")
 
-
+    return comb_df, agent_df, challenge_df
 
 
 if __name__ == "__main__":
 
     challenges = extract_challenges(
-        "10/24/2023",
-        "10/24/2023",
+        "10/27/2023",
+        "10/27/2023",
     )
 
     for challenge in challenges:
