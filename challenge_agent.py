@@ -12,7 +12,7 @@ Architecture:
 from __future__ import annotations
 
 import re
-from datetime import datetime, time
+from datetime import time
 from enum import Enum
 from typing import Optional
 
@@ -23,7 +23,7 @@ from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field
 from langchain.agents import create_agent
 
-SEASON = "2024-25"
+SEASON = "2025-26"
 NBA_ARCHIVE = "https://official.nba.com/wp-json/api/v1/query_replay_feed"
 
 HEADERS = {
@@ -440,8 +440,8 @@ def challenge_agent_eval():
 if __name__ == "__main__":
 
     challenges = extract_challenges(
-        "04/15/2025",
-        "06/22/2025",
+        "04/14/2026",
+        "06/13/2026",
     )
 
     agent_df = pd.DataFrame([vars(x) for x in challenges])
