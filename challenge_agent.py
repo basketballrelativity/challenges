@@ -440,8 +440,8 @@ def challenge_agent_eval():
 if __name__ == "__main__":
 
     challenges = extract_challenges(
-        "01/01/2025",
-        "01/31/2025",
+        "04/15/2025",
+        "06/22/2025",
     )
 
     agent_df = pd.DataFrame([vars(x) for x in challenges])
@@ -464,4 +464,4 @@ if __name__ == "__main__":
     agent_df = agent_df.rename(columns=rename_dict)
     agent_df["Date"] = [x.replace("202", "2") for x in agent_df["Date"]]
 
-    agent_df.to_csv(f"challenges/months/challenge_january_{SEASON}.csv", index=False)
+    agent_df.to_csv(f"challenges/months/challenge_playoffs_{SEASON}.csv", index=False)
